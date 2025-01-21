@@ -27,20 +27,20 @@ class Card():
     flavorText: Optional[str]
     hp: Optional[str]
     id: str
-    images: CardImage
-    legalities: Legality
+    images: Optional[CardImage]
+    legalities: Optional[Legality]
     regulationMark: Optional[str]
-    name: str
+    name: Optional[str]
     nationalPokedexNumbers: Optional[List[int]]
-    number: str
+    number: Optional[str]
     rarity: Optional[str]
     regulationMark: Optional[str]
     resistances: Optional[List[Resistance]]
     retreatCost: Optional[List[str]]
     rules: Optional[List[str]]
-    set: Set
+    set: Optional[Set]
     subtypes: Optional[List[str]]
-    supertype: str
+    supertype: Optional[str]
     tcgplayer: Optional[TCGPlayer]
     types: Optional[List[str]]
     weaknesses: Optional[List[Weakness]]

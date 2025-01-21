@@ -10,15 +10,15 @@ class Set():
     RESOURCE = 'sets'
 
     id: str
-    images: SetImage
-    legalities: Legality
-    name: str
-    printedTotal: int
+    images: Optional[SetImage]
+    legalities: Optional[Legality]
+    name: Optional[str]
+    printedTotal: Optional[int]
     ptcgoCode: Optional[str]
-    releaseDate: str
-    series: str
-    total: int
-    updatedAt: str
+    releaseDate: Optional[str]
+    series: Optional[str]
+    total: Optional[int]
+    updatedAt: Optional[str]
 
 
     @staticmethod
